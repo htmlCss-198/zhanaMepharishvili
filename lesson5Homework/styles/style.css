@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "unicode";
+    src: url(/fonts/3d_unicode.ttf)
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20;
+    background-color: rgb(237, 237, 96);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    background-color:rgb(21, 186, 181);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: tomato;
+    font-family: unicode, serif;
+    font-size: 40;
+}
+
+.toyimages {
+    display: flex;
+    justify-content: center;
+    border-style: outset;
+    border-width: 5px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-color: yellowgreen;       
+}
+
+p {
+    display: flex;
+   justify-content: center;
+   margin-top: 50px;
+   font-size: 18;
+}
+
+table, td, th {
+    border-style: dashed;
+    border-color: yellowgreen;
+    margin-top: 50px;
+    margin-left: 625px;
+    font-size: 16;
+}
+
+th {
+    background-color: tomato;
+}
+
+td {
+    background-color: rgb(21, 241, 21);
+}
+
+input {
+    width: 250px;
+    margin-left: 20;
+}
