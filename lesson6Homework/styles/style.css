@@ -1,0 +1,233 @@
+@font-face {
+    font-family: "unicode";
+    src: url(/fonts/unicode.ttf)
+}
+
+@font-face {
+    font-family: "dancingScript";
+    src: url(/fonts/dancingScript.ttf)
+}
+
+body {
+    margin: 0%;
+    background-color: #F9F07A;
+}
+
+.icon {
+    color: #FB88B4;
+    font-size: 20;
+    font-family: dancingScript, serif;
+}
+
+a {
+    text-decoration: none;
+    color: #836FFF;
+}
+
+.moreinfo {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30%;
+}
+
+.navigation {
+    background-color: #B7C9F2;
+    padding: 20px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: unicode, serif;
+    color: #B784B7;
+    
+}
+
+.images {
+    
+}
+
+#image1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+#image2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+#image3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+#image1:hover {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 5px;
+    margin-right: 30px;
+    margin-left: 80px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 30%;
+}
+
+#image2:hover {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 5px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 30%;
+}
+
+#image3:hover {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 5px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 30%;
+}
+
+p {
+    color: #FC6736;
+    font-size: 17;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, td, th {
+    border: groove;
+    width: 28%;
+}
+
+th {
+    background-color: #436850;
+    color: #FBFADA;
+}
+
+#firstrow {
+    background-color: #FBFADA;
+}
+
+#secondrow {
+    background-color: #FBFADA;
+}
+
+#thirdrow {
+    background-color: #FBFADA;
+}
+
+#lastrow {
+    background-color: #FBFADA;
+}
+
+#firstrow:hover {
+    cursor: pointer;
+    background-color: #b6b598;
+    color: #436850;
+}
+
+#secondrow:hover {
+    cursor: pointer;
+    background-color: #b6b598;
+    color: #436850;
+}
+
+#thirdrow:hover {
+    cursor: pointer;
+    background-color: #b6b598;
+    color: #436850;
+}
+
+#lastrow:hover {
+    cursor: pointer;
+    background-color: #b6b598;
+    color: #436850;
+}
+
+#youropinion {
+    width: 240;
+    border-radius: 20px 0px 0px 20px;
+    border-color: #FC6736;
+    padding: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: #FECDA6;
+}
+
+#send {
+    padding: 10px;
+    border-radius: 0px 20px 20px 0px;
+    border-color: #FC6736;
+}
+
+#youropinion:hover {
+    border-color: #4F6F52;
+    background-color: #B2C8BA;
+}
+
+#youropinion:focus {
+    background-color: #D0A2F7;
+    color: #0802A3;
+}
+
+#send {
+    background-color: #CD5C08;
+}
+
+#secondone {
+    color: #F5E8B7;
+}
+
+#send:hover {
+    background-color: #F5E8B7;
+}
+
+#secondone:hover {
+    color: #CD5C08;
+}
+
+#send:active {
+    background-color: #C1D8C3;
+}
+
+#secondone:active {
+    color: #6A9C89;
+}
+
+a:hover {
+    color: #F5E8B7;
+}
+
+a:active {
+    color: red;
+}
+
