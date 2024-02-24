@@ -161,6 +161,13 @@ th {
     padding: 10px 10px;
 }
 
+#github {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+}
+
 #youtube {
     border: 1px solid #D71313;
     background-color: #D71313;
@@ -239,4 +246,42 @@ th {
     width: 500px;
     height: 300px;
     margin-bottom: 20px;
+}
+
+#justemail {
+    padding: 10px 20px 10px 50px;
+    border-radius: 5px;
+    border-color: #52D3D8;
+    margin-top: 10px;
+}
+
+#justbutton {
+    border-color: #52D3D8;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 30px;
+}
+.somelinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.emailaddress {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hereweare {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.theEnd {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
