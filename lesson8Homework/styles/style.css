@@ -1,0 +1,222 @@
+body {
+    margin: 0;
+    background-color: #F8DFD4;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: #C69774;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #637E76;
+    font-size: larger;
+}
+
+h1 {
+    color: #C69774;
+    margin-top: 80px;
+    margin-left: 400px;
+    text-shadow: 2px 2px 2px #E48F45;
+}
+
+img {
+    width: 400px;
+    height: 200px;
+    border: 2px solid #637E76;
+    border-radius: 20px;
+    transition: width 4s, height 4s;
+}
+
+img:hover {
+    width: 600px;
+    height: 300px;
+    transform: rotate(20deg);
+}
+
+.somephotos {
+    display: flex;
+    justify-content: center;
+}
+
+#spring {
+    background-color: #F8DFD4;
+    color: #637E76;
+    padding: 2opx;
+    font-size: larger;
+    position: relative;
+    animation-name: movingline;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes movingline {
+    0% {
+        left: 100%;
+    }
+    
+    100% {
+        left: -100%;
+    }
+}
+
+.wintersale {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table, th, td {
+    border: 2px solid #85586F;
+}
+
+th {
+    background-color: #B7E5B4;
+}
+
+td {
+    background-color: #E48F45;
+}
+
+td:hover {
+    padding: 10px;
+}
+
+.twins {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.logo {
+    color: whitesmoke;
+    font-size: larger;
+}
+
+#fb {
+    border: 1px solid #3081D0;
+    border-radius: 20px;
+    background-color: #3081D0;
+    color: white;
+    padding: 10px 13px;
+}
+
+#twitter {
+    border: 1px solid #6DB9EF;
+    border-radius: 20px;
+    background-color: #6DB9EF;
+    color: white;
+    padding: 10px 10px;
+}
+
+#instagram {
+    border: 1px solid #CE5A67;
+    border-radius: 20px;
+    background-color: #CE5A67;
+    color: white;
+    padding: 10px 11px;
+}
+
+#linkedin {
+    border: 1px solid #3081D0;
+    border-radius: 20px;
+    background-color: #3081D0;
+    color: white;
+    padding: 10px 11px;
+}
+
+#youtube {
+    border: 1px solid #D71313;
+    border-radius: 20px;
+    background-color: #D71313;
+    color: white;
+    padding: 10px 9px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid whitesmoke;
+    background-color: rgb(16, 16, 107);
+    color: whitesmoke;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+#company {
+    font-size: larger;
+}
+
+#services {
+    font-size: larger;
+}
+
+#account {
+    font-size: larger;
+}
+
+#courses {
+    font-size: larger;
+}
+
+.firstcolumn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: whitesmoke;
+}
+
+.secondcolumn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: whitesmoke;
+}
+
+.thirdcolumn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: whitesmoke;
+}
+
+.fourthcolumn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: whitesmoke;
+}
+
+.fifthcolumn {
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+}
+
+.moreinfo {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(16, 16, 107);
+    margin-bottom: 30px;
+}
+
+#subscribe {
+    font-size: larger;
+}
+
+#youremail {
+    border: 3px white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#clickhere {
+    border-radius: 5px;
+    padding: 5px;
+}
