@@ -1,0 +1,213 @@
+@media only screen and (max-width: 500px) {
+    body  {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 1024px) {
+    .body {
+        width: 80%;
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .body {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@font-face {
+    font-family: "akademiuri";
+    src: url(/fonts/akademiuri.ttf);
+}
+
+* {
+    font-family: akademiuri, serif;
+}
+
+body {
+    margin: 0;
+    background-color: #B5C0D0;
+} 
+
+#compImage {
+    width: 100%;
+}
+
+.moreInfo {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    top: 30px;
+    left: 400px;
+    color: rgb(243, 235, 235);
+    text-shadow: 5px 5px 4px black;
+    font-size: 19px;
+    width: 800px;
+    height: 100%;   
+}
+
+#logoImage {
+    width: 150px;
+}
+
+#logo {
+    position: absolute;
+    top: 0;
+    left: 30px;
+}
+
+#menu a {
+    position: fixed;
+    top: 25px;
+    right: 150px;
+    font-size: 40px;
+    color: rgb(208,173,104);
+}
+
+#menu a:hover {
+    color: whitesmoke;
+}
+
+footer {
+    background-color: rgb(74,112,129);
+    border: 1px solid rgb(74,112,129);
+    box-shadow: 0px 0px 20px 12px rgb(74,112,129);
+}
+
+.logoAndAdress {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.contacInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 65px;
+}
+
+
+.contacInfo a {
+    color: rgb(208,173,104);
+    font-size: 16px;
+}
+
+.contacInfo a:hover {
+    color: whitesmoke;
+}
+
+.fbInsta {
+    display: flex;
+    
+}
+
+.cellPhone {
+    display: flex;
+}
+
+.someUsefulInfo {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(208,173,104);
+    padding: 20px;
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#logoHere {
+    width: 250px;
+}
+
+#adress {
+    font-size: 16px;
+    color: whitesmoke;
+}
+
+#workingHours {
+    font-size: 16px;
+    color: whitesmoke;
+}
+
+#phoneNumber {
+    margin-bottom: 10px;
+}
+
+
+#infoEmail {
+    margin-bottom: 10px;
+}
+
+#findUs {
+    font-size: 16px;
+    color: whitesmoke;
+    margin-right: 5px;
+}
+
+#callUs {
+    font-size: 16px;
+    color: whitesmoke;
+    margin-right: 5px;
+}
+
+#fb {
+    color: rgb(208,173,104);
+    margin-right: 5px;
+} 
+
+#fb:hover {
+    color: whitesmoke;
+}
+
+#instagram {
+    color: rgb(208,173,104);
+} 
+
+#instagram:hover {
+    color: whitesmoke;
+}
+
+#viber {
+    color: rgb(208,173,104);
+    margin-right: 5px;
+} 
+
+#viber:hover {
+    color: whitesmoke;
+}
+
+#whatsapp {
+    color: rgb(208,173,104);
+    margin-right: 5px;
+} 
+
+#whatsapp:hover {
+    color: whitesmoke;
+}
+
+#telegram {
+    color: rgb(208,173,104);
+} 
+
+#telegram:hover {
+    color: whitesmoke;
+}
+
+.theEnd {
+    padding-bottom: 30px;
+}
+
+
+
+
+

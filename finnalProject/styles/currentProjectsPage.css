@@ -1,0 +1,189 @@
+@media only screen and (max-width: 500px) {
+    body  {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 1024px) {
+    .body {
+        width: 80%;
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .body {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@font-face {
+    font-family: "akademiuri";
+    src: url(/fonts/akademiuri.ttf);
+}
+
+* {
+    font-family: akademiuri, serif;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(201,191,183);
+}
+
+#logo {
+    width: 150px;
+    margin-left: 30px;
+}
+
+#menu a {
+    position: fixed;
+    top: 23px;
+    right: 163px;
+    font-size: 40px;
+    color: rgb(201,169,103);
+}
+
+#spring {
+    position: relative;
+    color: white;
+    font-size: 30px;
+    animation-name: movingline;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+  
+}
+
+@keyframes movingline {
+    0% {
+        left: 100%;
+    }
+    
+    100% {
+        left: -100%;
+    }
+}
+
+.dighomi {
+    position: absolute;
+    bottom: 0;
+    transition: padding 0.5s;
+}
+
+.dighomi:hover {
+    padding: 20px;
+    background-color: rgb(220, 204, 191);
+}
+
+.lisi {
+    position: absolute;
+    bottom: 0;
+    left: 382px;
+    transition: padding 0.5s;
+}
+
+.lisi:hover {
+    padding: 20px;
+    background-color: rgb(220, 204, 191);
+}
+
+.vera {
+    position: absolute;
+    bottom: 0;
+    left: 770px;
+    transition: padding 0.5s;
+}
+
+.vera:hover {
+    padding: 20px;
+    background-color: rgb(220, 204, 191);
+}
+
+.didiDighomi {
+    position: absolute;
+    bottom: 0;
+    right: 0;  
+    transition: padding 0.5s; 
+}
+
+.didiDighomi:hover {
+    padding: 20px;
+    background-color: rgb(220, 204, 191);
+}
+
+#imageDighomi {
+    width: 380px;
+    opacity: 0.5;
+}
+
+#imageDighomi:hover {
+    opacity: 1;
+}
+
+#imageLisi {
+    width: 380px;
+    opacity: 0.5;
+}
+
+#imageLisi:hover {
+    opacity: 1;
+}
+
+#imageVera {
+    width: 380px;
+    opacity: 0.5;
+}
+
+#imageVera:hover {
+    opacity: 1;
+}
+
+#imageDididighomi {
+    width: 380px;
+    opacity: 0.5;
+}
+
+#imageDididighomi:hover {
+    opacity: 1;
+}
+
+#textDighomi {
+    border: 1px solid rgb(201,169,103);
+    background-color: rgb(201,169,103);
+    width: 381px;
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+#textLisi {
+    position: absolute;
+    bottom: 330px;
+    width: 387px;
+    border: 1px solid rgb(201,169,103);
+    background-color: rgb(201,169,103);
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+#textVera {
+    position: absolute;
+    bottom: 330px;
+    width: 380px;
+    border: 1px solid rgb(201,169,103);
+    background-color: rgb(201,169,103);
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+#textDididighomi {
+    position: absolute;
+    bottom: 330px;
+    width: 378px;
+    border: 1px solid rgb(201,169,103);
+    background-color: rgb(201,169,103);
+    color: whitesmoke;
+    font-size: 30px;
+}
+
