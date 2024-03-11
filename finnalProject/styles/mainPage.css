@@ -1,0 +1,308 @@
+@media only screen and (max-width: 500px) {
+    body  {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 1024px) {
+    .body {
+        width: 80%;
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .body {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@font-face {
+    font-family: "akademiuri";
+    src: url(/fonts/akademiuri.ttf);
+}
+
+* {
+    font-family: akademiuri, serif;
+}
+
+:root {
+    --color1: rgb(208,173,104);
+    --color2: rgb(74,112,129);
+}
+
+body {
+    margin: 0;
+}
+
+.nav {
+    position: relative;
+}
+
+#mainPageImage {
+    width: 100%;
+}
+
+#logo {
+    position: absolute;
+    top: 0;
+    left: 30px;
+    width: 150px;
+}
+
+.greenComplex {
+    position: absolute;
+    top: 60%;
+    left: 44%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 20px;
+    text-shadow: 2px 2px 8px black; 
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+    transition: padding 1s;
+}
+
+.greenComplex:hover {
+    padding: 20px;
+}
+
+#menu a {
+    position: absolute;
+    top: 25px;
+    right: 150px;
+    font-size: 40px;
+    color: var(--color1);
+}
+
+#menu a:hover {
+    color: whitesmoke;
+}
+
+.requestacall {
+    position: absolute;
+    top: 550px;
+    right: 0px;
+    border: 1px solid var(--color1);
+    border-radius: 2px;
+    background-color: var(--color1);
+    padding: 30px 70px;
+    font-size: 16px;
+}
+
+.requestacall:hover {
+    background-color: rgb(156, 120, 47);
+}
+
+.requestacall a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.pageTwo {
+    position: relative;
+}
+
+#pageTwoImage {
+    width: 100%;
+    opacity: 0.2;
+}
+
+.aboutGreenComplex {
+    position: absolute;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    margin-left: 150px;
+    font-size: 20px;
+    color: var(--color2);
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 250px;
+}
+
+.price {
+    position: absolute;
+    top: 68px;
+    right: 300px;
+    color: var(--color2);
+}
+
+#word {
+    font-size: 20px;
+}
+
+#digit {
+    font-size: 30px;
+}
+
+.priceInfoOne {
+    border-bottom: 1px solid var(--color2);
+    padding: 10px;
+}
+
+.priceInfoTwo {
+    border-bottom: 1px solid var(--color2);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.priceInfoThree {
+    border-bottom: 1px solid var(--color2);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+footer {
+    background-color: var(--color2);
+    border: 1px solid var(--color2);
+    box-shadow: 0px 0px 20px 12px var(--color2);
+}
+
+.logoAndAdress {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.contacInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 65px;
+}
+
+
+.contacInfo a {
+    color: var(--color1);
+    font-size: 16px;
+}
+
+.contacInfo a:hover {
+    color: whitesmoke;
+}
+
+.fbInsta {
+    display: flex;
+    
+}
+
+.cellPhone {
+    display: flex;
+}
+
+.someUsefulInfo {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid var(--color1);
+    padding: 20px;
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#logoHere {
+    width: 250px;
+}
+
+#adress {
+    font-size: 16px;
+    color: whitesmoke;
+}
+
+#workingHours {
+    font-size: 16px;
+    color: whitesmoke;
+}
+
+#phoneNumber {
+    margin-bottom: 10px;
+}
+
+
+#infoEmail {
+    margin-bottom: 10px;
+}
+
+#findUs {
+    font-size: 16px;
+    color: whitesmoke;
+    margin-right: 5px;
+}
+
+#callUs {
+    font-size: 16px;
+    color: whitesmoke;
+    margin-right: 5px;
+}
+
+#fb {
+    color: var(--color1);
+    margin-right: 5px;
+} 
+
+#fb:hover {
+    color: whitesmoke;
+}
+
+#instagram {
+    color: var(--color1);
+} 
+
+#instagram:hover {
+    color: whitesmoke;
+}
+
+#viber {
+    color: var(--color1);
+    margin-right: 5px;
+} 
+
+#viber:hover {
+    color: whitesmoke;
+}
+
+#whatsapp {
+    color: var(--color1);
+    margin-right: 5px;
+} 
+
+#whatsapp:hover {
+    color: whitesmoke;
+}
+
+#telegram {
+    color: var(--color1);
+} 
+
+#telegram:hover {
+    color: whitesmoke;
+}
+
+.theEnd {
+    padding-bottom: 30px;
+}
+
+
+
+
+
+

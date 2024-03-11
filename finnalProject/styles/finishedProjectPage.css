@@ -1,0 +1,78 @@
+@media only screen and (max-width: 500px) {
+    body  {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 1024px) {
+    .body {
+        width: 80%;
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .body {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@font-face {
+    font-family: "akademiuri";
+    src: url(/fonts/akademiuri.ttf);
+}
+
+* {
+    font-family: akademiuri, serif;
+}
+
+body {
+    margin: 0;
+    background-color: #BED1CF;
+}
+
+#menu a {
+    position: fixed;
+    top: 23px;
+    right: 163px;
+    font-size: 40px;
+    color: rgb(201,169,103);
+}
+
+h1 {
+    color: rgb(6,58,83);
+}
+
+#greenComplex {
+    position: absolute;
+    top: 5px;
+    left: 650px;
+}
+
+img {
+    width: 400px;
+    height: 200px;
+    border: 1px solid #BED1CF;
+    border-radius: 5px;
+    transition: width 1s, height 0.5s;
+    transition-timing-function: ease-in;
+}
+
+img:hover {
+    transform: rotate(3deg);
+    width: 450px;
+    height: 250px;
+}
+
+.DataContainer {
+    position: absolute;
+    top: 80px;
+    left: 150px;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 20px;
+    width: 200px;
+}

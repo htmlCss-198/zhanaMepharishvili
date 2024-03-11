@@ -1,0 +1,256 @@
+@media only screen and (max-width: 500px) {
+    body  {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 1024px) {
+    .body {
+        width: 80%;
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .body {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@font-face {
+    font-family: "akademiuri";
+    src: url(/fonts/akademiuri.ttf);
+}
+
+* {
+    font-family: akademiuri, serif;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(159, 163, 159);
+}
+
+img {
+    width: 150px;
+    height: 125px;
+    margin-left: 30px;
+}
+
+form label {
+    font-size: 20px;
+    margin-left: 620px;
+}
+
+form input {
+    background-color: rgb(240,240,240);
+    padding: 10px;
+    border-color: rgb(74,112,129);
+    border-radius: 5px;
+}
+
+form input:hover {
+    background-color: rgb(184, 200, 206);
+}
+
+form input:focus {
+    background-color: rgb(74,112,129);
+    color: white;
+}
+
+form button {
+    font-size: 20px;
+    border: 1px solid rgb(208,173,104);
+    border-radius: 50px;
+    background-color: rgb(208,173,104);
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 680px;
+}
+
+form button:hover {
+    background-color: white;
+    color: rgb(208,173,104);
+}
+
+form button:focus {
+    background-color: rgb(208,173,104);
+    color: bisque;
+}
+
+#call {
+    margin-bottom: 40px;
+    margin-left: 680px;
+    color: rgb(74,112,129);
+    
+}
+
+.projectGreen {
+    font-size: 20px;
+    margin-left: 620px;
+    color: rgb(74,112,129);
+}
+
+#green {
+    border: 1px solid rgb(240,240,240);
+    border-radius: 10px;
+    background-color: rgb(240,240,240);
+    padding: 10px;
+    margin-left: 20px;
+    color: rgb(74,112,129);
+}
+
+#green:hover {
+    background-color: rgb(74,112,129);
+    color: whitesmoke;
+}
+
+.nameHere {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: rgb(74,112,129);
+}
+
+#name {
+    margin-right: 34px;
+}
+
+.phoneNumberHere {
+    color: rgb(74,112,129);
+}
+
+footer {
+    background-color: rgb(74,112,129);
+    border: 1px solid rgb(74,112,129);
+    box-shadow: 0px 0px 20px 12px rgb(74,112,129);
+}
+
+.logoAndAdress {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.contacInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 65px;
+}
+
+
+.contacInfo a {
+    color: rgb(208,173,104);
+    font-size: 16px;
+}
+
+.contacInfo a:hover {
+    color: whitesmoke;
+}
+
+.fbInsta {
+    display: flex;
+    
+}
+
+.cellPhone {
+    display: flex;
+}
+
+.someUsefulInfo {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(208,173,104);
+    padding: 20px;
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#logoHere {
+    width: 160px;
+}
+
+#adress {
+    font-size: 16px;
+    color: whitesmoke;
+}
+
+#workingHours {
+    font-size: 16px;
+    color: whitesmoke;
+}
+
+#phoneNumber {
+    margin-bottom: 10px;
+}
+
+
+#infoEmail {
+    margin-bottom: 10px;
+}
+
+#findUs {
+    font-size: 16px;
+    color: whitesmoke;
+    margin-right: 5px;
+}
+
+#callUs {
+    font-size: 16px;
+    color: whitesmoke;
+    margin-right: 5px;
+}
+
+#fb {
+    color: rgb(208,173,104);
+    margin-right: 5px;
+} 
+
+#fb:hover {
+    color: whitesmoke;
+}
+
+#instagram {
+    color: rgb(208,173,104);
+} 
+
+#instagram:hover {
+    color: whitesmoke;
+}
+
+#viber {
+    color: rgb(208,173,104);
+    margin-right: 5px;
+} 
+
+#viber:hover {
+    color: whitesmoke;
+}
+
+#whatsapp {
+    color: rgb(208,173,104);
+    margin-right: 5px;
+} 
+
+#whatsapp:hover {
+    color: whitesmoke;
+}
+
+#telegram {
+    color: rgb(208,173,104);
+} 
+
+#telegram:hover {
+    color: whitesmoke;
+}
+
+.theEnd {
+    padding-bottom: 30px;
+}

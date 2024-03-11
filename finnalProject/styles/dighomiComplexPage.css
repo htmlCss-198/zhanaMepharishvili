@@ -1,0 +1,154 @@
+@media only screen and (max-width: 500px) {
+    body  {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 1024px) {
+    .body {
+        width: 80%;
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .body {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@font-face {
+    font-family: "akademiuri";
+    src: url(/fonts/akademiuri.ttf);
+}
+
+* {
+    font-family: akademiuri, serif;
+}
+
+body {
+    margin: 0;
+}
+
+.back {
+    position: absolute;
+    top: 15px;
+    left: 300px;
+    font-size: 16px;
+    color: rgb(74,112,129);
+}
+
+.back a {
+    text-decoration: none;
+    color: rgb(74,112,129);
+}
+
+#dighomi {
+    width: 700px;
+    height: 600px;
+}
+
+.dighomiImage {
+    position: fixed;
+    bottom: 0;
+}
+
+.aboutInfo {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 15px;
+    left: 950px;
+}
+
+#current {
+    color: rgb(217,181,108);
+}
+
+#name {
+    color: rgb(42,86,106);
+    font-size: 40px;
+}
+
+#adress {
+    position: absolute;
+    top: 130px;
+    color: rgb(42,86,106);
+}
+
+.callUs {
+    border: 1px solid rgb(42,86,106);
+    border-radius: 5px;
+    padding: 20px 0px;
+}
+
+.callUs a {
+    color: rgb(42,86,106);
+    text-decoration: none;
+    font-size: 25px;
+    padding: 20px 90px;
+}
+
+.callUs a:hover {
+    background-color: rgb(42,86,106);
+    color: whitesmoke;
+}
+
+#line {
+    background-color: black;
+    width: 10px;
+    height: 1px;
+}
+
+.floors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(6,58,82);
+    color: white;
+    padding: 30px 20px;
+}
+
+.apartment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(54,95,114);
+    color: white;
+    padding: 30px 20px;
+}
+
+.parking {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(91,124,138);
+    color: white;
+    padding: 30px 20px;
+}
+
+.green {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(148,169,178);
+    color: white;
+    padding: 30px 20px;
+}
+
+.allNumbers {
+    position: absolute;
+    display: flex;
+    top: 350px;
+    left: 865px;
+}
+
+.text {
+    position: absolute;
+    top: 600px;
+    left: 800px;
+    color: rgb(42,86,106);
+}
